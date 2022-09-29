@@ -1,0 +1,22 @@
+.transactionTable {
+  width: 600px;
+}
+
+.transactionHeadItem {
+  color: white;
+  background-color: rgb(46, 199, 255);
+  font-size: 26px;
+  padding: 20px 0;
+}
+
+.transactionBodyItem {
+  padding: 10px 0;
+
+  text-align: center;
+
+  font-size: 18px;
+  color: rgb(96, 96, 96);
+}
+.TransactionBodyRow:nth-child(2n) {
+  background-color: silver;
+}
