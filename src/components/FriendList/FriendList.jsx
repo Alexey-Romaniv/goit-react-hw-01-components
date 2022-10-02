@@ -19,7 +19,7 @@ const Status = styled.span`
 const FriendItem = styled.li`
   display: flex;
   align-items: center;
-  ${'' /* justify-content: center; */}
+
   gap: 20px;
 
   padding: 5px 10px;
@@ -63,10 +63,3 @@ FriendList.propTypes = {
     })
   ),
 };
-{
-  /* <li class="item">
-  <span class="status"></span>
-  <img class="avatar" src="" alt="User avatar" width="48" />
-  <p class="name"></p>
-</li> */
-}

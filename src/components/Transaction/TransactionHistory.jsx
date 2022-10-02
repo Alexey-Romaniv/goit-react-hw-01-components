@@ -18,11 +18,6 @@ export const TransactionHistory = ({ items }) => {
             <td className={css.transactionBodyItem}>{currency}</td>
           </tr>
         ))}
-        {/* <tr>
-      <td>Invoice</td>
-      <td>125</td>
-      <td>USD</td>
-    </tr> */}
       </tbody>
     </table>
   );
